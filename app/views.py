@@ -80,3 +80,6 @@ def login_view():
 def logout_view():
     logout_user()
     return redirect(url_for('login'))
+
+def new_commit():
+    pass
